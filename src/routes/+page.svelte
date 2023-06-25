@@ -7,7 +7,7 @@
 <h1 class="text-3xl">Sagra Vignola-Falesina 2023</h1>
 
 <h2>Lotteria</h2>
-<p>Estrazione il giorno 27 Agosto 23 alle ore 18.00</p>
+<p>Estrazione il giorno 27 Agosto 2023 alle ore 18.00</p>
 </div>
 
 <!-- <h3>Premi</h3>
