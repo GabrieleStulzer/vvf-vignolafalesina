@@ -2,16 +2,17 @@
 	import PremiList from "../components/PremiList.svelte";
 
 </script>
-<h1 class="text-4xl text-center py-6">Sito in costruzione...</h1>
+
 <div class="bg-white rounded-2xl p-2 shadow-xl">
-<h1 class="text-3xl">Sagra Vignola-Falesina 2023</h1>
+    <h1 class="text-3xl">Sagra Vignola-Falesina 2023</h1>
 
-<h2>Lotteria</h2>
-<p>Estrazione il giorno 27 Agosto 2023 alle ore 18.00</p>
+    <h2>Lotteria</h2>
+    <p>Estrazione il giorno 27 Agosto 2023 alle ore 18.00</p>
+
+    <h3>Premi</h3>
+    <PremiList />
 </div>
-
-<!-- <h3>Premi</h3>
-<PremiList /> -->
+<h1 class="text-4xl text-center py-6">Sito in costruzione...</h1>
 
 <!-- <h2>Menù</h2>
 <p>Il menù sarà disponibile a breve</p>
@@ -39,5 +40,11 @@
         font-size: theme(fontSize.2xl);
         font-weight: theme(fontWeight.bold);
         padding-top: theme(spacing.2);
+    }
+
+    h3 {
+        font-size: theme(fontSize.xl);
+        font-weight: theme(fontWeight.bold);
+        padding-top: theme(spacing.1);
     }
 </style>
