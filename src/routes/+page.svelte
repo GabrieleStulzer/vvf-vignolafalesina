@@ -2,6 +2,9 @@
 	import PremiList from "../components/PremiList.svelte";
 
 </script>
+<svelte:head>
+    <title>Home | VVF Vignola Falesina</title>
+</svelte:head>
 
 <div class="bg-white rounded-2xl p-2 shadow-xl">
     <h1 class="text-3xl">Sagra Vignola-Falesina 2023</h1>
