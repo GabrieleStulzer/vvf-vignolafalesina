@@ -7,13 +7,16 @@
 </svelte:head>
 
 <div class="bg-white rounded-2xl p-2 shadow-xl">
-    <h1 class="text-3xl">Sagra Vignola-Falesina 2023</h1>
+    <h1 class="text-3xl">Sagra Vignola-Falesina 2025</h1>
 
     <h2>Lotteria</h2>
-    <p>Estrazione il giorno 27 Agosto 2023 alle ore 18.00</p>
+    <p>Estrazione avvenuta il giorno 24 Agosto 2025 alle ore 18.00</p>
 
     <h3>Premi</h3>
-    <PremiList />
+    <header class="p-4 flex justify-center align-middle">
+        <img src="/Lotteria 2025.jpg" alt="VVF" class="w-full m-2"/>
+    </header>
+    <!-- <PremiList /> -->
 </div>
 <h1 class="text-4xl text-center py-6">Sito in costruzione...</h1>
 
